@@ -24,6 +24,7 @@
                 <img src="logo plant.svg" alt="">
                 <h1>PLANT
                     SHOP</h1>
+                
             </div>
             <form action="" name="form1" class="form1">
 
@@ -60,45 +61,58 @@
 
         <!-- section  -->
         <section>
-            <div class="section_div">
+           
+<div class="section_div">
 <h3>CONTACT US</h3>
+
 <form action="" name="form2" class="form2">
-    <div class="section_name_mail">
-        <input type="text" placeholder="Name" name="Name" class="text_name_mail">
-        <input type="email" placeholder="Email" name="Email" class="text_name_mail">
-    </div>
-    <div class="section_select">
-        <label for="select" class="form2_labels">Is your question about an existing order?</label>
-        <select id="select" name="answer">
-            <option value=""></option>
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-        </select>
-    </div>
-    <div class="section_form_radio_div">
-        <label for="" class="form2_labels">I have a delivery question about my order</label>
-        <div class="radio_div">
-            <input type="radio" id="radio1" class="radio" value="1" name="order_question">
-            <label for="radio1" class="radio_text">I did not receive my order</label>
-            <input type="radio" id="radio2" class="radio" value="2" name="order_question">
-            <label for="radio2" class="radio_text">My order is incorrect or arriveddamaged</label>
-            <input type="radio" id="radio3" class="radio" value="3" name="order_question">
-            <label for="radio3" class="radio_text">Cancel my order</label>
-            <input type="radio" id="radio4" class="radio" value="4" name="order_question">
-            <label for="radio4" class="radio_text">Change my shipping address</label>
-        </div>
-        <div class="message_div">
-            <label for="message_div_text" class="form2_labels">Please provide more details below.</label>
-            <textarea name="message" id="message_div_text" cols="30" rows="7"
-                placeholder="Message"></textarea>
-        </div>
-        <div class="checkbox_div">
-            <input type="checkbox" id="checkbox" name="receive" value="yes">
-            <label for="checkbox" class="form2_labels">I want to receive the newsletter </label>
-        </div>
-        <button type="submit" class="section_button">SEND</button>
+    <div class="name_mail">
+<input type="text" placeholder="Name" name="name" class="name_mail_text">
+<input type="email" placeholder="Email" name="email"  class="name_mail_text" >
 
+    </div>
+    <div class="option">
+<label for="ask" class="option_question">
+    Is your question about an existing order?
+</label>
+    <select name="ask" id="yesorno">
+        <option value=""></option>
+        <option value="yes">yes</option>
+        <option value="no">No</option>
+    </select>
 
+</div>
+
+<div class="radio">
+ <h4>I have a delivery question about my order</h4>
+ <div class="radio_small_box"> 
+ <input type="radio" name="choose" value="Ididnotreceivemyorder" class="circle">
+    <label for="Ididnotreceivemyorder" class="smallbox_text"> I did not receive my order</label> 
+</div>
+<div class="radio_small_box"> 
+    <input type="radio" name="choose" value="Myorderisincorrectorarriveddamaged" class="circle">
+    <label for="Myorderisincorrectorarriveddamaged" class="smallbox_text">My order is incorrect or arrived damaged</label>
+</div> 
+<div class="radio_small_box"> 
+    <input type="radio" name="choose" value="Cancelmyorder" class="circle">
+    <label for="Cancelmyorder" class="smallbox_text">Cancel my order</label>
+</div> 
+<div class="radio_small_box"> 
+<input type="radio" name="choose" value="Changemyshippingaddress" class="circle">
+<label for="Changemyshippingaddress" class="smallbox_text">Change my shipping address</label>
+</div> 
+<div class="textarea_box">
+
+<label for="textarea" class="lebel_area"> Please provide more details below.</label>
+<textarea name="textarea" id="area" cols="30" rows="10"></textarea>
+
+</div>
+<div class="checkbox">
+<input type="checkbox" name="checkbox" class="check_class">
+<label for="checkbox"  class="lebel_area">I want to receive the newsletter </label>
+</div>
+</div>
+<input type="image" src="images/Frame 5.png">
 
 </form>
 
